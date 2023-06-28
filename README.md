@@ -8,7 +8,7 @@ SnakeAI is a Python project that allows an AI agent to play the classic game of 
 To use SnakeAI, you'll need to have Python 3 installed on your computer. You'll also need to install the Pygame library, which can be done using pip:
 
 ```
-pip install pygame
+pip install -r requirements.txt
 ```
 
 You will also need PyTorch and its libraries :
@@ -29,14 +29,10 @@ To run the SnakeAI game, navigate to the project directory and run the `snake.py
 
 ```
 cd snakeAI
-python snake.py
+python GamePT.py
 ```
 
 The game will start automatically, and the AI agent will begin playing. You can watch the game progress on the screen, and you can use the arrow keys to control the speed of the game.
-
-## Customization
-
-If you want to customize the game or the AI agent, you can modify the code in the `snake.py` file. The neural network model is defined in the `snakeAI.py` file, and you can adjust the parameters of the model to change the behavior of the AI agent.
 
 ## Contributing
 
